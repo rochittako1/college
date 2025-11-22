@@ -8,7 +8,7 @@ public class HelloWorld
 {
     
     int c= 9; // instance variable
-    string int d=98; // string variable
+    int d=98; // string variable
     
     
     
