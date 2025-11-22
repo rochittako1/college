@@ -3,8 +3,8 @@ import java.util.Scanner;
 /**
  * Write a description of class Rikshaw here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Rochit Tako
+ * @version v1
  */
 public class Rikshaw
 {public static void main (String[] args){
