@@ -20,7 +20,7 @@ public class FixedDepositNIB
     double A; //Amount before additional fee 
     double FA; // final amount
     while( i<=n){
-    System.out.println("Number"+i);
+    System.out.println("Customer Number"+i);
     System.out.println("Enter the deposit amount in Rs");
     double P=scan.nextDouble();
     if (P>=1000){
