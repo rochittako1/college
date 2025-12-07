@@ -34,7 +34,7 @@ public class FixedDepositNIB
     System.out.println("Your maturity amount is:"+"\u20B9"+A);
     FEE=Fee*A;
     System.out.println("Your Fee amount is:"+"\u20B9"+FEE);
-    FA=FEE+A;
+    FA=A-FEE;
     System.out.println("Your Final amount is:"+"\u20B9"+FA);
     }
     else{
