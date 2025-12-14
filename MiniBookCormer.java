@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class MiniBookCormer
+public class MiniBookCorner
 {
     public static void main(String[] args){
     String[] categories={"Fiction","Nepali"};
