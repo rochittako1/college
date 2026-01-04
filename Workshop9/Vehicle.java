@@ -18,7 +18,7 @@ public class Vehicle
         this.BasePrice=BasePrice;   
     }
     public void displayinfo(){
-    System.out.printf("ID=" +vehicleId, "brand=" +brand, "BasePrice="+BasePrice);
+    System.out.printf("ID= " +vehicleId, "brand=" +brand, "BasePrice="+BasePrice);
     }
     public double calculateTax(){
         return 0.1*BasePrice;

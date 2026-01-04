@@ -19,7 +19,7 @@ class car extends Vehicle
     this.FuelType=FuelType;
     }
      void displayVehicleinfo(){
-         System.out.printf("Brand="+brand,"Base Price="+BasePrice,"Number of doors="+numberOfDoors,"FuelType="+FuelType);
+         System.out.printf("Brand= "+brand,"Base Price="+BasePrice,"Number of doors="+numberOfDoors,"FuelType="+FuelType);
     }
     public double calculateFinalPrice(){
         double tax=calculateTax();

@@ -14,11 +14,12 @@ public class BankApp
         CurrentAccount current = new CurrentAccount("086456", "Sita", 500, 200);
 
         System.out.println("Savings Account Operations");
-        System.out.println("Initial Balance: $" + savings.getBalance());
+        System.out.println("Initial Balance: " + savings.getBalance());
         savings.deposit(200);
-        System.out.println("Current Balance after deposit: $" + savings.getBalance());
+        System.out.println("Current Balance after deposit: " + savings.getBalance());
         double interest = savings.calculateInterest();
-        System.out.println("Calculated Interest: $" + interest);        System.out.println("\n--- Current Account Operations ---");
+        System.out.println("Calculated Interest: " + interest);
+        System.out.println("\n Current Account Operations ");
         System.out.println("Initial Balance: " + current.getBalance());
         current.deposit(100);
         System.out.println("Balance after deposit:" + current.getBalance());

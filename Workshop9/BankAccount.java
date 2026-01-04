@@ -21,7 +21,7 @@ public class BankAccount
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("Deposited: $" + amount);
+            System.out.println("Deposited= " + amount);
         }
     }
     public double getBalance() {

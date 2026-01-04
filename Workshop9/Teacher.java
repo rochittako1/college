@@ -16,8 +16,6 @@ public class Teacher extends Person {
         this.subject = subject;
         this.bonus = bonus;
     }
-
-    @Override
     public double calculateAnnualSalary() {
         return super.calculateAnnualSalary() + bonus;
     }

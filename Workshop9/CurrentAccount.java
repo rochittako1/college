@@ -17,7 +17,7 @@ class CurrentAccount extends BankAccount {
     public boolean withdraw(double amount) {
         if (amount > 0 && amount <= balance + overdraftLimit) {
             balance -= amount;
-            System.out.println("Withdrew: $" + amount);
+            System.out.println("Withdrew: " + amount);
             return true;
         } else {
             System.out.println("Withdrawal failed. Insufficient funds or limit exceeded.");

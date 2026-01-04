@@ -15,8 +15,6 @@ public class PermanentEmployee extends Employee {
         this.HRA = HRA;
         this.DA = DA;
     }
-
-    // Method to calculate total salary (basicSalary + HRA + DA + bonus)
     public double calculateTotalSalary() {
         return basicSalary + HRA + DA + calculateBonus();
     }

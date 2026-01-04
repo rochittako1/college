@@ -17,7 +17,7 @@ class bike extends Vehicle
     this.EngineCapacity=EngineCapacity;
     }
      void displayvehicleinfo(){
-    System.out.printf("Brand="+brand,"Base Price="+BasePrice,"EngineCapacity"+EngineCapacity);
+    System.out.printf("Brand= "+brand,"Base Price="+BasePrice,"EngineCapacity"+EngineCapacity);
     }
     public double calculateFinalPrice(){
         double tax=calculateTax();

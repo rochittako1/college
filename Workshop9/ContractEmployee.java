@@ -10,7 +10,7 @@ package Workshop9;
 public class ContractEmployee extends Employee {
     int WorkingDays;
 
-    public ContractEmployee(int employeeId, String name, double basicSalary, int WorkingDays) {
+    public ContractEmployee(int employeeId, String name, double basicSalary , int WorkingDays) {
         super(employeeId, name, basicSalary);
         this.WorkingDays = WorkingDays;
     }

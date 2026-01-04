@@ -16,8 +16,6 @@ public class Staff extends Person {
         this.workingHours = workingHours;
         this.ratePerHour = ratePerHour;
     }
-
-    // Assuming calculateSalary is the intended method name
     public double calculateSalary() {
         return workingHours * ratePerHour;
     }

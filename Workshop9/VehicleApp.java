@@ -20,7 +20,7 @@ public class VehicleApp
     System.out.println("Bike 1 ");
     bike1.displayvehicleinfo();
     System.out.println("\nTax = " + bike1.calculateTax());
-    System.out.println("Final Price = " + bike1.calculateFinalPrice());
+    System.out.println("Final Price= " + bike1.calculateFinalPrice());
     System.out.println();
 
     }

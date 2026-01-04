@@ -15,7 +15,7 @@ public class PayRoll
         PE.displayEmployee();
         System.out.println("Total Salary: Rs" + PE.calculateTotalSalary());
         System.out.println();
-        ContractEmployee CE = new ContractEmployee(102, "Hari", 2000, 22);
+        ContractEmployee CE = new ContractEmployee(102, "Hari" , 2000, 22);
         System.out.println("Contract Employee Details");
         CE.displayEmployee();
         System.out.println("Total Salary:Rs " + CE.calculateTotalSalary());
