@@ -7,29 +7,22 @@ package Workshop8;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class EmployeeSalary
-{
+public class EmployeeSalary {
     private double basicSalary;
-    private double grossSalary;
 
-    public EmployeeSalary(double salary)
-    {
+    public EmployeeSalary(double salary) {
         this.basicSalary = salary;
     }
 
-    public void setbasicSalary(double salary)
-    {
+    public void setBasicSalary(double salary) {
         this.basicSalary = salary;
     }
 
-    public double getbasicSalary()
-    {
+    public double getBasicSalary() {
         return this.basicSalary;
     }
 
-    public double calculateGrossSalary()
-    {
-        grossSalary = (0.02 * basicSalary) + basicSalary;
-        return grossSalary;
+    public double calculateGrossSalary() {
+        return basicSalary + (0.02 * basicSalary);
     }
 }
