@@ -10,22 +10,26 @@ package Workshop8;
 public class EmployeeSalary
 {
     private double basicSalary;
-    double GrossSalary;
-     public EmployeeSalary(double salary)
+    private double grossSalary;
+
+    public EmployeeSalary(double salary)
     {
-        this.basicSalary=basicSalary;
+        this.basicSalary = salary;
     }
+
     public void setbasicSalary(double salary)
     {
-        this.basicSalary=basicSalary;
+        this.basicSalary = salary;
     }
+
     public double getbasicSalary()
     {
         return this.basicSalary;
     }
-    public double calculateGrossSalary(double basicSalary)
+
+    public double calculateGrossSalary()
     {
-    GrossSalary=(.02*basicSalary)+basicSalary;
-    return GrossSalary;
+        grossSalary = (0.02 * basicSalary) + basicSalary;
+        return grossSalary;
     }
 }
